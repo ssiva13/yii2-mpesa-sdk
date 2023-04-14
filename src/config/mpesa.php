@@ -8,11 +8,15 @@
 return [
     'class' => '\Ssiva\MpesaYiiSdk\MpesaDaraja',
     'configs' => [
-        'api_url' => "",
-        'max_txn' => "",
-        'min_txn' => "",
+        'api_url' => "https://sandbox.safaricom.co.ke",
+        'max_txn' => "125000",
+        'min_txn' => "100",
         'apps' => [
             'default' => [
+                'consumer_key' => "",
+                'consumer_secret' => "",
+            ],
+            'branch' => [
                 'consumer_key' => "",
                 'consumer_secret' => "",
             ],

@@ -24,6 +24,11 @@
             "url": "https://asset-packagist.org"
         }
     ],
+    "scripts": {
+        "post-install-cmd": [
+            "cp -Rf vendor/ssiva/yii2-mpesa-sdk/src/config/mpesa.php @app/config/"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "Ssiva\\MpesaYiiSdk\\": "src/"
