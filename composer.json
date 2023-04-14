@@ -1,0 +1,22 @@
+{
+    "name": "ssiva/yii2-mpesa-sdk",
+    "description": "This package provides a seamless integration of M-PESA Daraja APIs in Yii2 applications",
+    "type": "library",
+    "keywords": ["yii2","extension"," mpesa"," daraja"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Simon Siva",
+            "email": "simonsiva13@gmail.com"
+        }
+    ],
+    "require": {
+        "ssiva/mpesa-daraja": "^4",
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ssiva\\MpesaSdk\\": ""
+        }
+    }
+}
