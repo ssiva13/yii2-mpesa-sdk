@@ -8,6 +8,7 @@
 namespace Ssiva\MpesaYiiSdk;
 
 use yii\base\Component;
+use Ssiva\MpesaDaraja\Mpesa;
 use yii\base\InvalidConfigException;
 
 class MpesaDaraja extends Component
@@ -20,8 +21,6 @@ class MpesaDaraja extends Component
     {
         parent::init();
         $configs = $this->initiate();
-        
-        //dd($configs);
         
         $this->daraja = new Mpesa($configs);
     }
