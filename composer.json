@@ -14,9 +14,18 @@
         "ssiva/mpesa-daraja": "^4",
         "yiisoft/yii2": "~2.0.0"
     },
+    "require-dev": {
+        "phpunit/phpunit": "~9.5.0",
+        "codeception/codeception": "^5.0.0 || ^4.0"
+    },
     "autoload": {
         "psr-4": {
-            "Ssiva\\MpesaSdk\\": ""
+            "Ssiva\\MpesaYiiSdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MpesaYiiSdk\\Tests\\": "tests/"
         }
     }
 }
